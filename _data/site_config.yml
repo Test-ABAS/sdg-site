@@ -19,7 +19,7 @@ breadcrumbs:
       label: general.home
     - path: /news
       label: menu.updates
-config_form_library_src: https://open-sdg.org/open-sdg-config-form/2.4.1/bundle.js 
+config_form_library_src: https://open-sdg.org/open-sdg-config-form/2.4.1/bundle.js
 cookie_consent_form:
   enabled: false
 country:
@@ -122,6 +122,11 @@ indicator_config_form:
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
+  config_folder: indicator-config
+  github_client_id: Ov23liUjlQybT4c1bBSw
+  github_proxy_url: https://abas-sdg-github-oauth.vercel.app/
+  github_repo: sdg-data
+  github_owner: Test-ABAS
 indicator_data_form:
   enabled: true
   repository_link: /tree/develop/data
@@ -136,6 +141,11 @@ indicator_metadata_form:
     - global
   exclude_fields: []
   translated: false
+  config_folder: meta
+  github_client_id: Ov23liUjlQybT4c1bBSw
+  github_proxy_url: https://abas-sdg-github-oauth.vercel.app/
+  github_repo: sdg-data
+  github_owner: Test-ABAS
 indicator_tabs:
   tab_1: ''
   tab_2: ''
@@ -240,6 +250,11 @@ site_config_form:
   dropdowns: []
   repository_link: /tree/develop/_data
   translation_link: ''
+  config_folder: _data
+  github_client_id: Ov23liUjlQybT4c1bBSw
+  github_proxy_url: https://abas-sdg-github-oauth.vercel.app/
+  github_repo: sdg-site
+  github_owner: Test-ABAS
 time_series_attributes:
   - field: COMMENT_TS
     label: indicator.footnote
